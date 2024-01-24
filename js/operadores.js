@@ -75,3 +75,19 @@ console.log('El operador ==', variable1==valor);
 console.log('El resultado del operador ===', variable1===valor);
 //operador != 'Es distinto'
 console.log('El operador != es: ', variable1!=valor);
+//operador !== 'Estrictamente distinto'
+console.log('El operador !== es: ', variable1!==valor);
+//>, <, >=, <=
+console.log('El valor de > es: ',valor>valor2);
+console.log('El valor de < es: ',valor<valor2);
+console.log('El valor de >= es: ',valor>=valor2);
+console.log('El valor de <= es: ',valor<=valor2);
+
+//Logicos
+
+//--AND LOGICO &&: es true si ambas condiciones son true, caso contrario es false
+
+console.log('Probando el &&: ',variable1!=valor && variable1!==valor);
+//--OR LOGICO ||: retorna true si al menos una de las condiciones evaluadas es true;
+console.log('Probando El ||: ',variable1!=valor || variable1!==valor);
+
